@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 65px; border-bottom: 1px solid white
+}
+.container-90{
+	width: 89%; margin: auto
+}
+.email ul{
+	padding: 0; margin: 0; list-style: none
+}
+
+.email ul li a{
+	color: white; float: right; text-decoration: none; padding-top: 20px
+}
+.email{
+	float: right; color: white; display: flex
+}
+.email i{
+	padding-top: 22px; padding-right: 5px
+}
+.email:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.email a:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.banner{
+	width: 100%; height: 320px; padding-top: 30px
+}
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-cam{
+	color: hsla(21,83%,65%,1.00)
+}
+.logo a{
+	text-decoration: none; color: hsla(21,83%,65%,1.00); font-family: "Lobster", sans-serif;
+  font-weight: 20;
+  font-style: normal; font-size: 65px; 
+}
+.menu-giua ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu-giua ul li a{
+	padding: 10px 0 0 40px; text-decoration: none; color: white; font-size: 15px; font-weight: 600; display: block
+}
+.menu-giua ul li a:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.menu-giua ul li{
+	position: relative
+}
+.menu-giua .submenu{
+	position: absolute;flex-direction: column; display: none; 
+}
+.menu-giua .submenu ul{
+	padding: 0
+}
+.menu-giua .submenu li a{
+	width: 150px; color: white; padding-bottom: 10px
+}
+
+.menu-giua li:hover .submenu{
+	display:block
+}
+.menu-giua .submenu li a:hover{
+	border-bottom: hsla(21,83%,65%,1.00)
+}
+.menu-giua li:hover .submenu a{
+	border-radius: 5px
+}
+.w-35{
+	float: left; padding: 15px
+}
+.form-control{
+	padding: 8px; margin-bottom: 8px; width: 100%
+}
+.fontsize-20{
+	font-size: 20px
+}
+.pt-40{
+	padding-top: 40px
+}
+.text-den{
+	color: black
+}
+.fontsize-70{
+	font-size: 70px
+}
+.main{
+	width: 100%; height: auto;
+}
+.button{
+	text-align: center; margin: 20px
+}
+footer{
+	width: 100%; text-align: left; background-color: black; color: white; padding: 50px 0; clear: both
+}
+footer i{
+	padding: 10px
+}
+footer i{
+	padding: 0
+}
+.icon{
+	color: white; padding: 10px 20px 0 0; font-size: 18px
+}
+.text-xam{
+	color: hsla(0,0%,47%,1.00)
+}
+.pt-60{
+	padding-top: 100px 
+}
+.hours .gio{
+	padding: 2px 2px 2px 100px; 
+}
+.hotline{
+	padding: 2px;
+}
+.address{
+	padding: 2px 0 2px 100px;
+}
+.copyright ul{
+	padding: 0; margin: 0; list-style: none
+}
+.copyright a{
+	text-decoration: none; color: hsla(0,0%,47%,1.00); float: right; padding: 0 0 0 25px
+}
+.copyright a:hover{
+	color: hsla(21,83%,65%,1.00)
+}
+.logo-footer a{
+	text-decoration: none; color: hsla(21,83%,65%,1.00); font-family: "Lobster", sans-serif;
+  font-weight: 20;
+  font-style: normal; font-size: 65px; 
+}
+.bg{
+	background-color: #fcece3; height: 900px
+}
+.w-70{
+	width: 70%; float: right
+}
+.w-30{
+	width: 30%; float: left; color: black
+}
+.form-field{
+	display: flex; justify-content: space-between
+}
+.form-field p{
+	padding: 0 30px 0 0; color: black; width: 350px; font-weight: 570
+}
+.btn{
+	background-color:  hsla(21,83%,65%,1.00); color: white; width: 300px;height: 35px; margin: 50px; font-weight: 600; font-size: 12px; border-color:  hsla(21,83%,65%,1.00)
+}
+.btn:hover{
+	background-color: #fcece3; color:  hsla(21,83%,65%,1.00); 
+}
+#hinh{
+	width: 100%; min-height: 600px; background: url("../image/An Out-of-the-Box Hotel on the Jersey Shore _ The Asbury.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center top
+}
